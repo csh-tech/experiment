@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-  typedef enum { item1 = 0, same1 = 10, // item1和same1值可以相同，但是名字不能相同，否则会造成重复定义
+  typedef enum { item1 = 0, same1 = 0, // item1和same1值可以相同，但是名字不能相同，否则会造成重复定义
                  item2 = 1, same2 = 1,
                  item3 = 2} same_t;
 
